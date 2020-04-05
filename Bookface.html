@@ -1,0 +1,111 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bookface</title>
+	<meta name="description" content="The HTML5 Herald">
+	<meta name="author" content="">
+
+	<link href="https://unpkg.com/tailwindcss@1.2.0/dist/tailwind.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://cdn.materialdesignicons.com/5.0.45/css/materialdesignicons.min.css">
+	
+
+</head>
+<body class="bg-gray-100">
+	<div class="bg-blue-700">
+		<div class="items-center container mx-auto flex justify-between">
+			<div class="flex w-1/2">			
+				<h1 class="ml-6 text-3xl font-bold text-white">Bookface</h1>
+				<input class="appearance-none border px-2 w-1/3 m-2 text-gray-500 leading-tight focus:outline-none flex-1" type="text" placeholder="Search">
+			</div>
+			<div class="flex text-white mr-6 items-center">
+				<a class="flex items-center m-1 px-2 hover:bg-blue-800 rounded" href="#">
+					<div><img src="img/stephschmitt.jpg" class="h-5 w-5 m-1 rounded-full"/></div>
+					<div class="text-sm font-medium">Stephanie</div>
+				</a>
+				<a class="m-1 p-1 text-sm font-medium hover:bg-blue-800 rounded" href="#">Home</a>
+				<a class="m-1 p-1 text-sm font-medium hover:bg-blue-800 rounded" href="#">Create</a>
+				<div class="mdi mdi-account-plus text-2xl mr-3 text-gray-900"></div>
+				<div class="mdi mdi-facebook-messenger text-2xl mr-3 text-gray-900"></div>
+				<div class="mdi mdi-bell text-2xl mr-3 text-gray-900"></div>
+				<div class="mdi mdi-help-circle text-2xl mr-3 text-gray-900"></div>
+				<div class="mdi mdi-menu-down text-2xl mr-3 text-gray-900"></div>
+				
+			</div>
+		</div>
+	</div>	
+	<div class="container mx-auto flex">
+		<div class="m-6 w-1/4">
+			<div class="flex items-center">
+				<img src="img/stephschmitt.jpg" class="h-5 w-5 m-1 rounded-full"/>
+				Stephanie Schmitt
+			</div>
+			<div>
+				<div class="flex items-center py-1">
+					<span class="mdi mdi-newspaper-variant mr-2 text-2xl"></span><a>Newsfeed</a>
+				</div>
+				<div class="flex items-center py-1">
+					<span class="mdi mdi-facebook-messenger mr-2 text-2xl"></span><a>Messenger</a>
+				</div>
+				<div class="flex items-center py-1">
+					<span class="mdi mdi-television-play mr-2 text-2xl"></span><a>Watch</a>
+				</div>
+				<div class="flex items-center py-1">
+					<span class="mdi mdi-storefront mr-2 text-2xl"></span><a>Marketplace</a>
+				</div>
+			</div>
+		
+		</div>	
+		<div class="m-6 w-1/2">
+			<div class="rounded overflow-hidden shadow">
+				<div class="bg-gray-200 p-2">
+					Create a post
+				</div>
+				<div class="flex bg-white">
+					<img src="img/stephschmitt.jpg" class="h-12 w-12 m-2 rounded-full"/>
+					<textarea class="flex items-center block w-full text-gray-500 py-3 px-4 leading-tight focus:outline-none focus:bg-white" rows="4" cols="100">What's on your mind?</textarea>
+				</div>	
+		
+				<div class="bg-white flex border-t-2 border-gray-200">
+					<div class="bg-gray-300 hover:bg-gray-400 rounded-full py-2 px-4 m-2">
+						<span class="mdi mdi-image"></span> Photo/Video
+					</div>
+					<div class="bg-gray-300 hover:bg-gray-400 rounded-full py-2 px-4 m-2">
+						<span class="mdi mdi-account-star"></span> Tag Friends
+					</div>
+					<div class="bg-gray-300 hover:bg-gray-400 rounded-full py-2 px-4 m-2">
+						<span class="mdi mdi-map-marker"></span> Check In
+					</div>			
+					<div class="bg-gray-300 hover:bg-gray-400 rounded-full py-2 px-4 m-2">
+						...
+					</div>
+				</div>
+			</div>
+			<div class="rounded overflow-hidden shadow mt-4">
+				<div class="bg-white p-1">
+					<div class="flex items-center">
+						<img src="https://i.pravatar.cc/400" class="h-12 w-12 m-2 rounded-full"/>
+						<div>
+							<div class="text-blue-600 text-md font-bold">Derika Trump</div>
+							<div class="text-gray-600 text-xs">55 min<span> · </span><span class="mdi mdi-account-multiple text-md"></span></div>	
+						</div>
+					</div>
+					<div class="px-2">
+						Worship with my church family is the best way to start the week 💙 You can still join us now!
+						<br>
+						<span class="text-blue-600"><a href="#" class="hover:underline">#PalmSunday</a> <a href="#" class="hover:underline">#SundayWorship</a> <a href="#" class="hover:underline">#IllRaiseaHallelujah</a></span>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="rounded overflow-hidden shadow m-6 w-1/4">
+			<div class="bg-gray-300 p-2">
+				Birthdays
+			</div>
+		</div>	
+	</div>	
+</body>
+</html>
+
